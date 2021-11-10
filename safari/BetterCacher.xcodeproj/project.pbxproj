@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4446761F268D009C00F53A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446761E268D009C00F53A17 /* AppDelegate.swift */; };
+		44467622268D009C00F53A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44467620268D009C00F53A17 /* Main.storyboard */; };
+		44467624268D009C00F53A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44467623268D009C00F53A17 /* ViewController.swift */; };
+		44467626268D009F00F53A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44467625268D009F00F53A17 /* Assets.xcassets */; };
+		44467631268D009F00F53A17 /* BetterCacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44467630268D009F00F53A17 /* BetterCacherTests.swift */; };
+		4446763C268D009F00F53A17 /* BetterCacherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446763B268D009F00F53A17 /* BetterCacherUITests.swift */; };
+		44467643268D009F00F53A17 /* BetterCacher Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 44467642268D009F00F53A17 /* BetterCacher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44467648268D009F00F53A17 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44467647268D009F00F53A17 /* Cocoa.framework */; };
+		4446764B268D009F00F53A17 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446764A268D009F00F53A17 /* SafariWebExtensionHandler.swift */; };
+		4446764E268D009F00F53A17 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 4446764D268D009F00F53A17 /* _locales */; };
+		44467650268D009F00F53A17 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4446764F268D009F00F53A17 /* images */; };
+		44467652268D009F00F53A17 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 44467651268D009F00F53A17 /* manifest.json */; };
+		44467654268D009F00F53A17 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 44467653268D009F00F53A17 /* background.js */; };
+		44467656268D009F00F53A17 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 44467655268D009F00F53A17 /* content.js */; };
+		44467658268D009F00F53A17 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 44467657268D009F00F53A17 /* popup.html */; };
+		4446765A268D009F00F53A17 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 44467659268D009F00F53A17 /* popup.css */; };
+		4446765C268D009F00F53A17 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 4446765B268D009F00F53A17 /* popup.js */; };
+		4446766F268D03C000F53A17 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 4446766E268D03C000F53A17 /* jquery.min.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4446762D268D009F00F53A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44467612268D009C00F53A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44467619268D009C00F53A17;
+			remoteInfo = BetterCacher;
+		};
+		44467638268D009F00F53A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44467612268D009C00F53A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44467619268D009C00F53A17;
+			remoteInfo = BetterCacher;
+		};
+		44467644268D009F00F53A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44467612268D009C00F53A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44467641268D009F00F53A17;
+			remoteInfo = "BetterCacher Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44467664268D009F00F53A17 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				44467643268D009F00F53A17 /* BetterCacher Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4446761A268D009C00F53A17 /* BetterCacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterCacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4446761D268D009C00F53A17 /* BetterCacher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterCacher.entitlements; sourceTree = "<group>"; };
+		4446761E268D009C00F53A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44467621268D009C00F53A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44467623268D009C00F53A17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44467625268D009F00F53A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44467627268D009F00F53A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4446762C268D009F00F53A17 /* BetterCacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterCacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44467630268D009F00F53A17 /* BetterCacherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterCacherTests.swift; sourceTree = "<group>"; };
+		44467632268D009F00F53A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44467637268D009F00F53A17 /* BetterCacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterCacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4446763B268D009F00F53A17 /* BetterCacherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterCacherUITests.swift; sourceTree = "<group>"; };
+		4446763D268D009F00F53A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44467642268D009F00F53A17 /* BetterCacher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BetterCacher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44467647268D009F00F53A17 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4446764A268D009F00F53A17 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4446764D268D009F00F53A17 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		4446764F268D009F00F53A17 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		44467651268D009F00F53A17 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		44467653268D009F00F53A17 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		44467655268D009F00F53A17 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		44467657268D009F00F53A17 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		44467659268D009F00F53A17 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		4446765B268D009F00F53A17 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		4446765D268D009F00F53A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4446765E268D009F00F53A17 /* BetterCacher_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterCacher_Extension.entitlements; sourceTree = "<group>"; };
+		4446766E268D03C000F53A17 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = "../../../BetterCacher Firefox/jquery.min.js"; sourceTree = "<group>"; };
+		44B0D4AA2695BC23006BF0A8 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44467617268D009C00F53A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44467629268D009F00F53A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44467634268D009F00F53A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4446763F268D009F00F53A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44467648268D009F00F53A17 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44467611268D009C00F53A17 = {
+			isa = PBXGroup;
+			children = (
+				4446761C268D009C00F53A17 /* BetterCacher */,
+				4446762F268D009F00F53A17 /* BetterCacherTests */,
+				4446763A268D009F00F53A17 /* BetterCacherUITests */,
+				44467649268D009F00F53A17 /* BetterCacher Extension */,
+				44467646268D009F00F53A17 /* Frameworks */,
+				4446761B268D009C00F53A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4446761B268D009C00F53A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4446761A268D009C00F53A17 /* BetterCacher.app */,
+				4446762C268D009F00F53A17 /* BetterCacherTests.xctest */,
+				44467637268D009F00F53A17 /* BetterCacherUITests.xctest */,
+				44467642268D009F00F53A17 /* BetterCacher Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4446761C268D009C00F53A17 /* BetterCacher */ = {
+			isa = PBXGroup;
+			children = (
+				4446761D268D009C00F53A17 /* BetterCacher.entitlements */,
+				4446761E268D009C00F53A17 /* AppDelegate.swift */,
+				44467620268D009C00F53A17 /* Main.storyboard */,
+				44467623268D009C00F53A17 /* ViewController.swift */,
+				44467625268D009F00F53A17 /* Assets.xcassets */,
+				44467627268D009F00F53A17 /* Info.plist */,
+			);
+			path = BetterCacher;
+			sourceTree = "<group>";
+		};
+		4446762F268D009F00F53A17 /* BetterCacherTests */ = {
+			isa = PBXGroup;
+			children = (
+				44467630268D009F00F53A17 /* BetterCacherTests.swift */,
+				44467632268D009F00F53A17 /* Info.plist */,
+			);
+			path = BetterCacherTests;
+			sourceTree = "<group>";
+		};
+		4446763A268D009F00F53A17 /* BetterCacherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4446763B268D009F00F53A17 /* BetterCacherUITests.swift */,
+				4446763D268D009F00F53A17 /* Info.plist */,
+			);
+			path = BetterCacherUITests;
+			sourceTree = "<group>";
+		};
+		44467646268D009F00F53A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44467647268D009F00F53A17 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44467649268D009F00F53A17 /* BetterCacher Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4446764A268D009F00F53A17 /* SafariWebExtensionHandler.swift */,
+				4446765D268D009F00F53A17 /* Info.plist */,
+				4446765E268D009F00F53A17 /* BetterCacher_Extension.entitlements */,
+				4446764C268D009F00F53A17 /* Resources */,
+			);
+			path = "BetterCacher Extension";
+			sourceTree = "<group>";
+		};
+		4446764C268D009F00F53A17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4446766E268D03C000F53A17 /* jquery.min.js */,
+				4446764D268D009F00F53A17 /* _locales */,
+				4446764F268D009F00F53A17 /* images */,
+				44467651268D009F00F53A17 /* manifest.json */,
+				44467653268D009F00F53A17 /* background.js */,
+				44467655268D009F00F53A17 /* content.js */,
+				44467657268D009F00F53A17 /* popup.html */,
+				44467659268D009F00F53A17 /* popup.css */,
+				4446765B268D009F00F53A17 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44467619268D009C00F53A17 /* BetterCacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44467665268D009F00F53A17 /* Build configuration list for PBXNativeTarget "BetterCacher" */;
+			buildPhases = (
+				44467616268D009C00F53A17 /* Sources */,
+				44467617268D009C00F53A17 /* Frameworks */,
+				44467618268D009C00F53A17 /* Resources */,
+				44467664268D009F00F53A17 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44467645268D009F00F53A17 /* PBXTargetDependency */,
+			);
+			name = BetterCacher;
+			productName = BetterCacher;
+			productReference = 4446761A268D009C00F53A17 /* BetterCacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4446762B268D009F00F53A17 /* BetterCacherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44467668268D009F00F53A17 /* Build configuration list for PBXNativeTarget "BetterCacherTests" */;
+			buildPhases = (
+				44467628268D009F00F53A17 /* Sources */,
+				44467629268D009F00F53A17 /* Frameworks */,
+				4446762A268D009F00F53A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4446762E268D009F00F53A17 /* PBXTargetDependency */,
+			);
+			name = BetterCacherTests;
+			productName = BetterCacherTests;
+			productReference = 4446762C268D009F00F53A17 /* BetterCacherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44467636268D009F00F53A17 /* BetterCacherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4446766B268D009F00F53A17 /* Build configuration list for PBXNativeTarget "BetterCacherUITests" */;
+			buildPhases = (
+				44467633268D009F00F53A17 /* Sources */,
+				44467634268D009F00F53A17 /* Frameworks */,
+				44467635268D009F00F53A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44467639268D009F00F53A17 /* PBXTargetDependency */,
+			);
+			name = BetterCacherUITests;
+			productName = BetterCacherUITests;
+			productReference = 44467637268D009F00F53A17 /* BetterCacherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		44467641268D009F00F53A17 /* BetterCacher Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44467661268D009F00F53A17 /* Build configuration list for PBXNativeTarget "BetterCacher Extension" */;
+			buildPhases = (
+				4446763E268D009F00F53A17 /* Sources */,
+				4446763F268D009F00F53A17 /* Frameworks */,
+				44467640268D009F00F53A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterCacher Extension";
+			productName = "BetterCacher Extension";
+			productReference = 44467642268D009F00F53A17 /* BetterCacher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44467612268D009C00F53A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					44467619268D009C00F53A17 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4446762B268D009F00F53A17 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 44467619268D009C00F53A17;
+					};
+					44467636268D009F00F53A17 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 44467619268D009C00F53A17;
+					};
+					44467641268D009F00F53A17 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 44467615268D009C00F53A17 /* Build configuration list for PBXProject "BetterCacher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 44467611268D009C00F53A17;
+			productRefGroup = 4446761B268D009C00F53A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44467619268D009C00F53A17 /* BetterCacher */,
+				4446762B268D009F00F53A17 /* BetterCacherTests */,
+				44467636268D009F00F53A17 /* BetterCacherUITests */,
+				44467641268D009F00F53A17 /* BetterCacher Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44467618268D009C00F53A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44467626268D009F00F53A17 /* Assets.xcassets in Resources */,
+				44467622268D009C00F53A17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4446762A268D009F00F53A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44467635268D009F00F53A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44467640268D009F00F53A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44467654268D009F00F53A17 /* background.js in Resources */,
+				4446766F268D03C000F53A17 /* jquery.min.js in Resources */,
+				4446765A268D009F00F53A17 /* popup.css in Resources */,
+				44467658268D009F00F53A17 /* popup.html in Resources */,
+				44467650268D009F00F53A17 /* images in Resources */,
+				44467652268D009F00F53A17 /* manifest.json in Resources */,
+				4446764E268D009F00F53A17 /* _locales in Resources */,
+				44467656268D009F00F53A17 /* content.js in Resources */,
+				4446765C268D009F00F53A17 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44467616268D009C00F53A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44467624268D009C00F53A17 /* ViewController.swift in Sources */,
+				4446761F268D009C00F53A17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44467628268D009F00F53A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44467631268D009F00F53A17 /* BetterCacherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44467633268D009F00F53A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4446763C268D009F00F53A17 /* BetterCacherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4446763E268D009F00F53A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4446764B268D009F00F53A17 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4446762E268D009F00F53A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44467619268D009C00F53A17 /* BetterCacher */;
+			targetProxy = 4446762D268D009F00F53A17 /* PBXContainerItemProxy */;
+		};
+		44467639268D009F00F53A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44467619268D009C00F53A17 /* BetterCacher */;
+			targetProxy = 44467638268D009F00F53A17 /* PBXContainerItemProxy */;
+		};
+		44467645268D009F00F53A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44467641268D009F00F53A17 /* BetterCacher Extension */;
+			targetProxy = 44467644268D009F00F53A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44467620268D009C00F53A17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44467621268D009C00F53A17 /* Base */,
+				44B0D4AA2695BC23006BF0A8 /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4446765F268D009F00F53A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44467660268D009F00F53A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		44467662268D009F00F53A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BetterCacher Extension/BetterCacher_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 6ULW8DXS7T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "BetterCacher Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bettercacher.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		44467663268D009F00F53A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BetterCacher Extension/BetterCacher_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 6ULW8DXS7T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "BetterCacher Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bettercacher.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		44467666268D009F00F53A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BetterCacher/BetterCacher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 6ULW8DXS7T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = BetterCacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bettercacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		44467667268D009F00F53A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BetterCacher/BetterCacher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 6ULW8DXS7T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = BetterCacher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bettercacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		44467669268D009F00F53A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6ULW8DXS7T;
+				INFOPLIST_FILE = BetterCacherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = wiedenroth.design.BetterCacherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterCacher.app/Contents/MacOS/BetterCacher";
+			};
+			name = Debug;
+		};
+		4446766A268D009F00F53A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6ULW8DXS7T;
+				INFOPLIST_FILE = BetterCacherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = wiedenroth.design.BetterCacherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterCacher.app/Contents/MacOS/BetterCacher";
+			};
+			name = Release;
+		};
+		4446766C268D009F00F53A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6ULW8DXS7T;
+				INFOPLIST_FILE = BetterCacherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiedenroth.design.BetterCacherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BetterCacher;
+			};
+			name = Debug;
+		};
+		4446766D268D009F00F53A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6ULW8DXS7T;
+				INFOPLIST_FILE = BetterCacherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiedenroth.design.BetterCacherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BetterCacher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44467615268D009C00F53A17 /* Build configuration list for PBXProject "BetterCacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4446765F268D009F00F53A17 /* Debug */,
+				44467660268D009F00F53A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44467661268D009F00F53A17 /* Build configuration list for PBXNativeTarget "BetterCacher Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44467662268D009F00F53A17 /* Debug */,
+				44467663268D009F00F53A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44467665268D009F00F53A17 /* Build configuration list for PBXNativeTarget "BetterCacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44467666268D009F00F53A17 /* Debug */,
+				44467667268D009F00F53A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44467668268D009F00F53A17 /* Build configuration list for PBXNativeTarget "BetterCacherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44467669268D009F00F53A17 /* Debug */,
+				4446766A268D009F00F53A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4446766B268D009F00F53A17 /* Build configuration list for PBXNativeTarget "BetterCacherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4446766C268D009F00F53A17 /* Debug */,
+				4446766D268D009F00F53A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44467612268D009C00F53A17 /* Project object */;
+}

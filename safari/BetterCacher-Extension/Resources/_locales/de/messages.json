@@ -1,0 +1,11 @@
+{
+    "extension_name": {
+        "message": "BetterCacher",
+        "description": "Die BetterCacher Chrome-Erweiterung zeigt dir auf geocaching.com, ob der Cache auf BetterCacher gelistet ist."
+    },
+    "extension_description": {
+        "message": "Die BetterCacher Chrome-Erweiterung zeigt dir auf geocaching.com, ob der Cache auf BetterCacher gelistet ist.",
+        "description": "Die BetterCacher Chrome-Erweiterung zeigt dir auf geocaching.com, ob der Cache auf BetterCacher gelistet ist. Ermöglicht durch die BetterCacher API. Unterstützt die Sprachen Englisch und Deutsch."
+    }
+}
+

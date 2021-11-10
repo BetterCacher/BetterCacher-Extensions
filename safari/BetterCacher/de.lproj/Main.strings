@@ -1,0 +1,45 @@
+
+/* Class = "NSMenuItem"; title = "BetterCacher"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "BetterCacher";
+
+/* Class = "NSMenuItem"; title = "Quit BetterCacher"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit BetterCacher";
+
+/* Class = "NSMenuItem"; title = "About BetterCacher"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About BetterCacher";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "BetterCacher Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "BetterCacher Help";
+
+/* Class = "NSWindow"; title = "BetterCacher"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "BetterCacher";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Alle anzeigen";
+
+/* Class = "NSMenuItem"; title = "Hide BetterCacher"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "BetterCacher verstecken";
+
+/* Class = "NSTextFieldCell"; title = "The BetterCacher extension is currently disabled. You can turn it on in the Safari Extensions Settings."; ObjectID = "S7v-7o-3vW"; */
+"S7v-7o-3vW.title" = "Die BetterCacher-Erweiterung ist derzeit deaktiviert. Du kannst sie in den Einstellungen für Safari-Erweiterungen aktivieren.";
+
+/* Class = "NSButtonCell"; alternateTitle = "Install"; ObjectID = "Srx-0j-A4D"; */
+"Srx-0j-A4D.alternateTitle" = "Installieren";
+
+/* Class = "NSButtonCell"; title = "Safari Erweiterungen verwalten"; ObjectID = "Srx-0j-A4D"; */
+"Srx-0j-A4D.title" = "Safari Erweiterungen verwalten";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Andere verstecken";
+
+/* Class = "NSMenu"; title = "BetterCacher"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "BetterCacher";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Hilfe";

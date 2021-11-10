@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "BetterCacher",
+        "description": "The BetterCacher Chrome extension shows you on geocaching.com whether the cache is listed on BetterCacher."
+    },
+    "extension_description": {
+        "message": "The BetterCacher Chrome extension shows you on geocaching.com whether the cache is listed on BetterCacher.",
+        "description": "The BetterCacher Chrome extension shows you on geocaching.com whether the cache is listed on BetterCacher. Made possible by the BetterCacher API. Supports the languages English and German."
+    }
+}
