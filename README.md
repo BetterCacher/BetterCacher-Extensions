@@ -12,4 +12,4 @@ Our Chrome extension is available in the Chrome Web Store: https://chrome.google
 Our Firefox extension is available in Firefox Add-Ons: https://addons.mozilla.org/en-US/firefox/addon/bettercacher/
 
 ## Edge
-Our Edge extension is available in Microsoft Edge-Add-Ons: https://microsoftedge.microsoft.com/addons/detail/bettercacher/eeldpmbjpbfajheambcafoangfchdmmd
+Our Edge extension is available in Microsoft Edge-Add-Ons: https://microsoftedge.microsoft.com/addons/detail/bettercacher/bnekgoggnakikapmcjoeljdpoffbjmco
